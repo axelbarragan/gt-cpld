@@ -194,7 +194,7 @@ html {
   color: #fff;
 }
 .footer-derechos {
-  height: 50px;
+  height: auto;
   background: #333333;
   color: #fff;
   vertical-align: middle;
