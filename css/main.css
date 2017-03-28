@@ -44,34 +44,44 @@ html {
   top: -5px;
 }
 
+/*MEDIA QUERIES*/
+
+@media(min-width: 991px) {
+  .hospedaje-normal {
+    display: none;
+  }
+}
 @media(min-width:767px) {
   .navbar {
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
-
   .top-nav-collapse {
     padding: 0;
   }
-
   .let-logo {
     visibility: hidden;
   }
-
-
 }
-
+@media(max-width: 991px) {
+  .hospedaje-slide {
+    display: none;
+  }
+  .roll-section {
+    display: none;
+  }
+}
 @media(max-width: 767px) {
-    .img-logo {
+  .img-logo {
+    visibility: hidden;
+  }
+  .pdf-convocatoria {
     visibility: hidden;
   }
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
-
+/*Secciones*/
 .intro-section {
   padding-top: 50px;
   text-align: center;
@@ -162,10 +172,20 @@ of those sections to manage the look and feel of the site. */
   padding-top: 60px;
 }
 
+.hospedaje-section {
+  height: auto;
+  padding-top: 60px;
+}
+
 .patrocinadores-section {
   height: auto;
   padding-top: 60px;
   background: #FFF;
+}
+
+.countdown-section {
+  height: auto;
+  background: #464646;
 }
 
 .footer-redes {
@@ -194,6 +214,9 @@ of those sections to manage the look and feel of the site. */
 }
 .pad-top-10 {
   padding-top: 10px;
+}
+.pad-top-15 {
+  padding-top: 15px;
 }
 
 /* COMMON PRICING STYLES */
@@ -395,11 +418,9 @@ of those sections to manage the look and feel of the site. */
       text-shadow: 0px 1px 0px rgba(250,250,250, .75);
     }
 
-.countdown-section {
-  height: auto;
-  background: #464646;
-}
 
+
+/*SECCION COUNTDOWN*/
 .content {
   padding: 10px 44px;
 }
@@ -452,6 +473,7 @@ of those sections to manage the look and feel of the site. */
   margin-right: 20px;
   text-align: center;
 }
+/*---*/
 
 /*Social link*/
 .list-inline {
@@ -491,3 +513,4 @@ of those sections to manage the look and feel of the site. */
 .social-instagram>a {
   color: black !important;
 }
+/*---*/
