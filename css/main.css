@@ -118,18 +118,27 @@ html {
   padding-bottom: 60px; 
 }
 
-.parallax-section {
-
-}
 .parallax-window {
     min-height: 400px;
     background: transparent;
     z-index: 100;
-
 }
-.letras-parallax {
+.wrapper-parallax {
+  padding: 140px 0px;
   text-align: center;
-  vertical-align: middle;
+}
+.wrapper-parallax p {
+  background-color: rgba(230,24,115,0.5);
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: lighter;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline;
+  margin-bottom: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 60px;
 }
 
 .convocatoria-section {
