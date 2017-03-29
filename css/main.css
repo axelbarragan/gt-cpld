@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+/*MAIN.CSS*/
 
 body {
   width: 100%;
@@ -36,7 +32,7 @@ html {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #000;
+  background-color: #24292e;
   border: #000;
 }
 .img-logo {
