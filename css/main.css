@@ -2,7 +2,11 @@
 
 @font-face {
   font-family: "Blanche";
-  src: url(../fonts/blanche.ttf) format("truetype");
+  src: url('../fonts/blanche-webfont.eot');
+  src: url('../fonts/blanche-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/blanche-webfont.woff') format('woff'),
+       url('../fonts/blanche-webfont.ttf') format('truetype'),
+       url('../fonts/blanche-webfont.svg#webfont') format('svg');
 }
 
 body {
