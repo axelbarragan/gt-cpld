@@ -42,6 +42,11 @@ html {
   background-color: #9DDFC1;
 }
 
+/*Tipo de texto*/
+.texto-negritas {
+  font-weight: bold;
+}
+
 
 /*NAVBAR*/
 .navbar {
