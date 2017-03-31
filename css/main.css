@@ -1,5 +1,10 @@
 /*MAIN.CSS*/
 
+@font-face {
+  font-family: "Blanche";
+  src: url(../fonts/blanche.ttf) format("truetype");
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -23,10 +28,18 @@ html {
 .texto-mostaza {
   color: #cac905;
 }
+.texto-jade {
+  color: #9DDFC1;
+}
 
 /*Ocultar*/
 .xl-hidden {
   display: none;
+}
+
+/*COLORES DE FONDO*/
+.fondo-jade {
+  background-color: #9DDFC1;
 }
 
 
@@ -105,7 +118,6 @@ html {
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
-  background: #292c31;
 }
 
 .parallax-window {
@@ -117,10 +129,10 @@ html {
   padding: 140px 0px;
   text-align: center;
 }
-.wrapper-parallax p {
+.wrapper-parallax .lema {
   background-color: rgba(230,24,115,0.5);
   color: #ffffff;
-  font-size: 54px;
+  font-size: 80px;
   font-weight: lighter;
   padding-left: 10px;
   padding-right: 10px;
@@ -128,7 +140,21 @@ html {
   margin-bottom: -5px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 60px;
+  line-height: 93px;
+  font-family: "Blanche", sans-serif;
+}
+.wrapper-parallax .inscribete {
+  background-color: rgba(230,24,115,0.5);
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: lighter;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline;
+  margin-bottom: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
 }
 
 .seccion-slide1 {
@@ -136,6 +162,11 @@ html {
   height: auto;
   padding-top: 60px;
   padding-bottom: 60px; 
+}
+
+.seccion-chalchi {
+  background: #FFF;
+  height: auto;
 }
 
 .seccion-convocatoria {
@@ -192,14 +223,14 @@ html {
   background: #FFF;
 }
 
-.countdown-section {
+.seccion-contador {
   height: auto;
-  background: #464646;
+  background: #9DDFC1;
 }
 
 .footer-redes {
   height: auto;
-  background: #4D4D4D;
+  background: #FFF;
   color: #fff;
 }
 .footer-derechos {
@@ -456,7 +487,7 @@ html {
 }
 
 .text h2 {
-  color: #E5E5E5;
+  color: #000;
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
@@ -521,8 +552,9 @@ html {
   border-radius:100%;
   color: #FFF;
 }
-.social-twitter {
+/*.social-twitter {
   background-color: #1da1f2;
+  background-color: #FFF;
 }
 .social-facebook {
   background-color: #3b5998;
@@ -532,8 +564,57 @@ html {
 }
 .social-instagram {
   background-color: #ffffff;
+}*/
+.social {
+  background-color: #FFF;
 }
-.social-instagram>a {
+.social>a {
   color: black !important;
 }
 /*---*/
+
+.btn-jade { 
+  color: #000000; 
+  background-color: #9DDFC1; 
+  border-color: #77D2A9; 
+} 
+ 
+.btn-jade:hover, 
+.btn-jade:focus, 
+.btn-jade:active, 
+.btn-jade.active, 
+.open .dropdown-toggle.btn-jade { 
+  color: #000000; 
+  background-color: #B0E5CD; 
+  border-color: #77D2A9; 
+} 
+ 
+.btn-jade:active, 
+.btn-jade.active, 
+.open .dropdown-toggle.btn-jade { 
+  background-image: none; 
+} 
+ 
+.btn-jade.disabled, 
+.btn-jade[disabled], 
+fieldset[disabled] .btn-jade, 
+.btn-jade.disabled:hover, 
+.btn-jade[disabled]:hover, 
+fieldset[disabled] .btn-jade:hover, 
+.btn-jade.disabled:focus, 
+.btn-jade[disabled]:focus, 
+fieldset[disabled] .btn-jade:focus, 
+.btn-jade.disabled:active, 
+.btn-jade[disabled]:active, 
+fieldset[disabled] .btn-jade:active, 
+.btn-jade.disabled.active, 
+.btn-jade[disabled].active, 
+fieldset[disabled] .btn-jade.active { 
+  background-color: #9DDFC1; 
+  border-color: #77D2A9; 
+} 
+ 
+.btn-jade .badge { 
+  color: #9DDFC1; 
+  background-color: #000000; 
+}
