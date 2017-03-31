@@ -51,6 +51,11 @@ html {
   font-weight: bold;
 }
 
+/*USO DE FUENTES*/
+.fuente-blanche {
+  font-family: "Blanche", sans-serif;
+}
+
 
 /*NAVBAR*/
 .navbar {
@@ -497,7 +502,7 @@ html {
 
 .text h2 {
   color: #000;
-  font-size: 30px;
+  font-size: 50px;
   font-style: normal;
   font-variant: normal;
   font-weight: lighter;
