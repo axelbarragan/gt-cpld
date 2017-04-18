@@ -228,12 +228,13 @@ html {
 
 
 
-
-
 .patrocinadores-section {
   height: auto;
-  padding-top: 60px;
   background: #FFF;
+
+}
+.lema-patrocinadores {
+  font-size: 7em;
 }
 
 .seccion-contador {
