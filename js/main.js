@@ -15,6 +15,8 @@ $(document).ready(function(){
     adaptiveHeight: true,
     mode: 'vertical',
     auto: true,
+    speed: 400,
+    pause: 5000
   });
 
   $('.nav a').click(function(){
