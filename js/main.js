@@ -47,7 +47,7 @@ $(document).ready(function(){
     
       var clock;
 
-      clock = $('.clock').FlipClock({
+      clock = $('#clock').FlipClock({
             clockFace: 'DailyCounter',
             language: 'spanish',
             autoStart: false,
