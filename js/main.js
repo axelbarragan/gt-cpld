@@ -24,7 +24,8 @@ $(document).ready(function(){
   });
 
   /*Contador*/
-  var target_date = new Date('Jun, 31, 2017').getTime();
+  var target_date = new Date('jun, 25, 2017').getTime();
+  
   // variables for time units
   var days, hours, minutes, seconds;
   // get tag element
